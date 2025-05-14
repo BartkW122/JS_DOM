@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='kod.js' defer></script>
+    <style>
+        form img{
+            width: 100px;
+            height: 100px;
+            visibility: hidden;
+        }
+        img{
+            width: 400px;
+            height: 400px;
+        }
+        button{
+            padding: 20px;font-size: 10em;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label>AUDI</label>
+        <input type="checkbox" name="audi" id="audi" >
+        <img src="audi.jpg" id="a">
+        <label>Mercedes</label>
+        <input type="checkbox" name="merc" id="merc">
+        <img src="merc.jpg" id="m">
+        <label>BMW</label>
+        <input type="checkbox" name="bmw" id="bmw">
+        <img src="bmw.jpg" id="b">
+    </form>
+    <button id="btn_l" onclick="btn_l()"><</button>
+    <img src="1.jpg" id="Aktywne_zdj">
+    <button id="btn_r" onclick="btn_r()">></button>
+    <div class="galeria">
+        <img src="1.jpg">
+        <img src="2.jpg">
+        <img src="3.jpg">
+        <img src="4.jpg">
+    </div>
+</body>
+</html>
